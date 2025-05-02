@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head><title>API Docs</title></head>
+<body>
+    <h1>My API Gateway Documentation</h1>
+    <h2>Endpoints</h2>
+    <ul>
+        <li><strong>GET /api/users</strong><br>
+            Requires Header: <code>X-API-Key</code><br>
+            Response: <code>[{"id":1,"name":"Alice"},...]</code><br>
+            Errors: 401 Unauthorized, 429 Too Many Requests
+        </li>
+        <li><strong>GET /api/products</strong><br>
+            Requires Header: <code>X-API-Key</code><br>
+            Response: <code>[{"sku":"A123","productName":"Widget"},...]</code><br>
+            Errors: 401 Unauthorized, 429 Too Many Requests
+        </li>
+    </ul>
+</body>
+</html>
