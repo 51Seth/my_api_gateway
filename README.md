@@ -1,4 +1,3 @@
-# my_api_gateway
 # My API Gateway
 
 ## Setup Instructions
